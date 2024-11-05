@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=M+PLUS+1+Code:wght@100..700&display=swap');
+
+body,
+html {
+  background-color: hsl(47, 88%, 63%);
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 350px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 8px 7px 2px 2px hsl(0, 0%, 7%);
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  border: 1px solid black;
+}
+
+.main-image {
+  align-self: center; /* Centraliza a imagem principal */
+  border-radius: 15px;
+  margin-bottom: 15px;
+  width: 350px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinha o texto à esquerda */
+  width: 100%;
+  font-family: "Figtree", sans-serif;
+}
+
+.learning {
+  color: hsl(0, 0%, 7%);
+  font-weight: bold;
+  background-color: hsl(47, 88%, 63%);
+  padding: 6px;
+  border-radius: 4px;
+  width: fit-content;
+  
+}
+
+.published{
+  font-weight: bold;
+}
+
+.title{
+  font-size: 25px;
+  font-family: "Figtree", sans-serif; ;
+  font-weight: 800px;
+  margin-bottom: 0;
+}
+
+.paragraph{
+  color: hsl(0, 0%, 42%);
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.author img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.attribution {
+  margin-top: 15px;
+  text-align: center;
+}
